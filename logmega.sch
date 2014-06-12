@@ -21435,7 +21435,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C5" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="100n"/>
 <part name="C4" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="100n"/>
 <part name="C1" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="22pF"/>
-<part name="C11" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="100n"/>
+<part name="C11" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="0.1uF"/>
 <part name="D3" library="diode" deviceset="DIODE-" device="MINIMELF" value="CD1206-S01575"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
@@ -24386,11 +24386,6 @@ routing.</text>
 <wire x1="-144.78" y1="-208.28" x2="-167.64" y2="-208.28" width="0.1524" layer="91"/>
 <label x="-167.64" y="-208.28" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U$7" gate="G$1" pin="IOREF"/>
-<wire x1="10.16" y1="-208.28" x2="-17.78" y2="-208.28" width="0.1524" layer="91"/>
-<label x="-17.78" y="-208.28" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="VCC_SW_SHIELD2" class="3">
 <segment>
@@ -24407,6 +24402,11 @@ routing.</text>
 <pinref part="U$7" gate="G$1" pin="VCC"/>
 <wire x1="-17.78" y1="-200.66" x2="12.7" y2="-200.66" width="0.1524" layer="91"/>
 <label x="-17.78" y="-200.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="IOREF"/>
+<wire x1="10.16" y1="-208.28" x2="-17.78" y2="-208.28" width="0.1524" layer="91"/>
+<label x="-17.78" y="-208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
