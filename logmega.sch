@@ -2157,70 +2157,6 @@ package type OT</description>
 <text x="-3.048" y="-3.048" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="-3.048" y="3.556" size="1.016" layer="21" font="vector">1</text>
 </package>
-<package name="CR2032-SMD">
-<wire x1="-15.24" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-4.572" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="-4.572" x2="-4.826" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="-4.826" y1="-10.16" x2="5.08" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-10.16" x2="10.16" y2="-4.826" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-4.826" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-2.54" x2="15.24" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.127" layer="21"/>
-<wire x1="15.24" y1="2.54" x2="10.16" y2="2.54" width="0.127" layer="21"/>
-<wire x1="10.16" y1="2.54" x2="10.16" y2="9.652" width="0.127" layer="21"/>
-<wire x1="10.16" y1="9.652" x2="5.842" y2="9.652" width="0.127" layer="21"/>
-<wire x1="5.842" y1="9.652" x2="3.302" y2="6.604" width="0.127" layer="21"/>
-<wire x1="3.302" y1="6.604" x2="-3.048" y2="6.604" width="0.127" layer="21"/>
-<wire x1="-3.048" y1="6.604" x2="-5.334" y2="9.652" width="0.127" layer="21"/>
-<wire x1="-5.334" y1="9.652" x2="-10.16" y2="9.652" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="9.652" x2="-10.16" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="2.54" x2="-15.24" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-15.24" y1="2.54" x2="-15.24" y2="-2.54" width="0.127" layer="21"/>
-<circle x="-12.954" y="0" radius="0.9158" width="0.127" layer="21"/>
-<circle x="12.7" y="0.254" radius="0.9158" width="0.127" layer="21"/>
-<smd name="-" x="0" y="0" dx="4.064" dy="4.064" layer="1"/>
-<smd name="+$1" x="-12.7" y="0" dx="5.08" dy="5.08" layer="1"/>
-<smd name="+$2" x="12.7" y="0" dx="5.08" dy="5.08" layer="1"/>
-<text x="-3.556" y="10.302" size="1.6764" layer="25" font="vector">&gt;NAME</text>
-<text x="-4.318" y="-12.35" size="1.6764" layer="27" font="vector">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="-9" y="0" curve="-90"/>
-<vertex x="0" y="9" curve="-90"/>
-<vertex x="9" y="0" curve="-90"/>
-<vertex x="0" y="-9" curve="-90"/>
-</polygon>
-</package>
-<package name="CR2032-THRU">
-<wire x1="-11.176" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-4.572" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="-4.572" x2="-4.826" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="-4.826" y1="-10.16" x2="5.08" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-10.16" x2="10.16" y2="-4.826" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-4.826" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-2.54" x2="11.176" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="11.176" y1="-2.54" x2="11.176" y2="2.54" width="0.127" layer="21"/>
-<wire x1="11.176" y1="2.54" x2="10.16" y2="2.54" width="0.127" layer="21"/>
-<wire x1="10.16" y1="2.54" x2="10.16" y2="9.652" width="0.127" layer="21"/>
-<wire x1="10.16" y1="9.652" x2="5.842" y2="9.652" width="0.127" layer="21"/>
-<wire x1="5.842" y1="9.652" x2="3.302" y2="7.874" width="0.127" layer="21"/>
-<wire x1="3.302" y1="7.874" x2="-3.048" y2="7.874" width="0.127" layer="21"/>
-<wire x1="-3.048" y1="7.874" x2="-5.334" y2="9.652" width="0.127" layer="21"/>
-<wire x1="-5.334" y1="9.652" x2="-10.16" y2="9.652" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="9.652" x2="-10.16" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="2.54" x2="-11.176" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-11.176" y1="2.54" x2="-11.176" y2="-2.54" width="0.127" layer="21"/>
-<pad name="+1" x="-10.668" y="0" drill="2" diameter="3.81" shape="octagon"/>
-<pad name="+2" x="10.668" y="0" drill="2" diameter="3.81" shape="octagon"/>
-<smd name="-" x="0" y="0" dx="10.16" dy="10.16" layer="1" roundness="100"/>
-<text x="-3.556" y="3.302" size="1.6764" layer="25" font="vector">&gt;NAME</text>
-<text x="-4.318" y="-6.35" size="1.6764" layer="27" font="vector">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="-7.62" y="0" curve="90"/>
-<vertex x="0" y="-7.62" curve="90"/>
-<vertex x="7.62" y="0" curve="90"/>
-<vertex x="0" y="7.62" curve="90"/>
-</polygon>
-</package>
 </packages>
 <symbols>
 <symbol name="LP298X">
@@ -2269,19 +2205,6 @@ package type OT</description>
 <pin name="GND" x="15.24" y="-2.54" length="middle" direction="pwr" rot="R180"/>
 <pin name="MOSI" x="15.24" y="0" length="middle" direction="out" rot="R180"/>
 <pin name="VCC" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
-</symbol>
-<symbol name="3V">
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="0.635" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="2.54" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="0.635" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<text x="-1.27" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.27" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="+" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="-" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="+1" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2390,33 +2313,6 @@ Standard 6 pin header for AVR programming</description>
 <connect gate="G$1" pin="RST" pad="5"/>
 <connect gate="G$1" pin="SCK" pad="3"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CR2032" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="3V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMT" package="CR2032-SMD">
-<connects>
-<connect gate="G$1" pin="+" pad="+$1"/>
-<connect gate="G$1" pin="+1" pad="+$2"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="THM" package="CR2032-THRU">
-<connects>
-<connect gate="G$1" pin="+" pad="+1"/>
-<connect gate="G$1" pin="+1" pad="+2"/>
-<connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9823,6 +9719,50 @@ Made middle pad longer than on data sheet so I won't accidentally touch the sold
 <text x="-1.27" y="2.5475" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.27" y="1.2775" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="CR2032-SMD">
+<description>Based on Adafruit, except w/ keepout on top.</description>
+<wire x1="-15.24" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-4.572" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-4.572" x2="-4.826" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-4.826" y1="-10.16" x2="5.08" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-10.16" x2="10.16" y2="-4.826" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-4.826" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-2.54" x2="15.24" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.127" layer="21"/>
+<wire x1="15.24" y1="2.54" x2="10.16" y2="2.54" width="0.127" layer="21"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="9.652" width="0.127" layer="21"/>
+<wire x1="10.16" y1="9.652" x2="5.842" y2="9.652" width="0.127" layer="21"/>
+<wire x1="5.842" y1="9.652" x2="3.302" y2="6.604" width="0.127" layer="21"/>
+<wire x1="3.302" y1="6.604" x2="-3.048" y2="6.604" width="0.127" layer="21"/>
+<wire x1="-3.048" y1="6.604" x2="-5.334" y2="9.652" width="0.127" layer="21"/>
+<wire x1="-5.334" y1="9.652" x2="-10.16" y2="9.652" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="9.652" x2="-10.16" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="2.54" x2="-15.24" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="2.54" x2="-15.24" y2="-2.54" width="0.127" layer="21"/>
+<circle x="-12.954" y="0" radius="0.9158" width="0.127" layer="21"/>
+<circle x="12.7" y="0.254" radius="0.9158" width="0.127" layer="21"/>
+<smd name="-" x="0" y="0" dx="4.064" dy="4.064" layer="1"/>
+<smd name="+$1" x="-12.7" y="0" dx="5.08" dy="5.08" layer="1"/>
+<smd name="+$2" x="12.7" y="0" dx="5.08" dy="5.08" layer="1"/>
+<text x="-3.556" y="10.302" size="1.6764" layer="25" font="vector">&gt;NAME</text>
+<text x="-4.318" y="-12.35" size="1.6764" layer="27" font="vector">&gt;VALUE</text>
+<polygon width="0.127" layer="29">
+<vertex x="-9" y="0" curve="-90"/>
+<vertex x="0" y="9" curve="-90"/>
+<vertex x="9" y="0" curve="-90"/>
+<vertex x="0" y="-9" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="39">
+<vertex x="-10" y="-4.5"/>
+<vertex x="-4.7" y="-10"/>
+<vertex x="5" y="-10"/>
+<vertex x="10" y="-4.8"/>
+<vertex x="10" y="5.5"/>
+<vertex x="6.5" y="9.5"/>
+<vertex x="-6" y="9.5"/>
+<vertex x="-10" y="5.5"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="ALOG_LOGO">
@@ -9959,6 +9899,20 @@ Made middle pad longer than on data sheet so I won't accidentally touch the sold
 <pin name="14" x="7.62" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="15" x="7.62" y="15.24" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="16" x="7.62" y="17.78" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="COIN3V">
+<description>From Adafruit (3V)</description>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.4064" layer="94"/>
+<wire x1="0.635" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="2.54" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="0.635" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<text x="-1.27" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.27" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="+" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="-" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="+1" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10160,6 +10114,26 @@ Made middle pad longer than on data sheet so I won't accidentally touch the sold
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CR2032">
+<description>Adafruit's CR2032 except with a keepout.
+
+Received a board with beveled bottom below the circle of the footprint, and want to avoid traces touching battery.</description>
+<gates>
+<gate name="G$1" symbol="COIN3V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CR2032-SMD">
+<connects>
+<connect gate="G$1" pin="+" pad="+$1"/>
+<connect gate="G$1" pin="+1" pad="+$2"/>
+<connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21342,7 +21316,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="SD" library="adafruit" deviceset="SDMMC" device="06132"/>
-<part name="CLOCK_BATT" library="adafruit" deviceset="CR2032" device="SMT" value="3V Backup Battery"/>
+<part name="CLOCK_BATT" library="awickert" deviceset="CR2032" device="" value="3V Backup Battery"/>
 <part name="JP2" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="JP3" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
@@ -21466,12 +21440,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="VCC_VDIV_1" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="VCC_VDIV_2" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="SUPPLY44" library="supply2" deviceset="GND" device=""/>
-<part name="SW" library="awickert" deviceset="FDG6342L" device=""/>
+<part name="M0/SW" library="awickert" deviceset="FDG6342L" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
-<part name="M0R1" library="rcl" deviceset="R-US_" device="R0603" value="?K"/>
+<part name="M0R1" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="SUPPLY45" library="supply2" deviceset="GND" device=""/>
-<part name="M0R2" library="rcl" deviceset="R-US_" device="R0603" value="?K"/>
-<part name="MOC1" library="resistor" deviceset="C-EU" device="C0603" value="?uF"/>
+<part name="M0R2" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="MOC1" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="R_REF_A8" library="resistor" deviceset="R-US_" device="0207/10" value="Therm"/>
 <part name="R_REF_A9" library="resistor" deviceset="R-US_" device="0207/10"/>
 <part name="R_REF_A10" library="resistor" deviceset="R-US_" device="0207/10"/>
@@ -21517,16 +21491,16 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY56" library="supply2" deviceset="GND" device=""/>
 <part name="M1" library="awickert" deviceset="FDG6342L" device=""/>
 <part name="P+16" library="supply1" deviceset="VCC" device=""/>
-<part name="M1R2" library="rcl" deviceset="R-US_" device="R0603" value="?K"/>
+<part name="M1R2" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="SUPPLY60" library="supply2" deviceset="GND" device=""/>
-<part name="M1R1" library="rcl" deviceset="R-US_" device="R0603" value="?K"/>
-<part name="M1C1" library="resistor" deviceset="C-EU" device="C0603" value="?uF"/>
+<part name="M1R1" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="M1C1" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="M2" library="awickert" deviceset="FDG6342L" device=""/>
 <part name="P+22" library="supply1" deviceset="VCC" device=""/>
-<part name="M2R2" library="rcl" deviceset="R-US_" device="R0603" value="?K"/>
+<part name="M2R2" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="SUPPLY61" library="supply2" deviceset="GND" device=""/>
-<part name="M2R1" library="rcl" deviceset="R-US_" device="R0603" value="?K"/>
-<part name="M2C1" library="resistor" deviceset="C-EU" device="C0603" value="?uF"/>
+<part name="M2R1" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="M2C1" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="H1" library="SparkFun" deviceset="M08" device="3.5MM-8"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
@@ -21757,7 +21731,7 @@ routing.</text>
 <instance part="VCC_VDIV_1" gate="G$1" x="45.72" y="-152.4" rot="MR90"/>
 <instance part="VCC_VDIV_2" gate="G$1" x="45.72" y="-182.88" rot="MR90"/>
 <instance part="SUPPLY44" gate="GND" x="45.72" y="-193.04" rot="MR0"/>
-<instance part="SW" gate="G$1" x="-129.54" y="-30.48"/>
+<instance part="M0/SW" gate="G$1" x="-129.54" y="-30.48"/>
 <instance part="P+10" gate="VCC" x="-73.66" y="-30.48"/>
 <instance part="M0R1" gate="G$1" x="-180.34" y="-35.56" rot="R90"/>
 <instance part="SUPPLY45" gate="GND" x="-180.34" y="-45.72"/>
@@ -21938,7 +21912,7 @@ routing.</text>
 <wire x1="45.72" y1="-147.32" x2="45.72" y2="-137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SW" gate="G$1" pin="VIN,R1"/>
+<pinref part="M0/SW" gate="G$1" pin="VIN,R1"/>
 <wire x1="-109.22" y1="-35.56" x2="-83.82" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-35.56" x2="-73.66" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="-35.56" x2="-73.66" y2="-33.02" width="0.1524" layer="91"/>
@@ -23721,7 +23695,7 @@ routing.</text>
 <pinref part="IC3" gate="1" pin="(ALE)PG2"/>
 </segment>
 <segment>
-<pinref part="SW" gate="G$1" pin="ON/OFF"/>
+<pinref part="M0/SW" gate="G$1" pin="ON/OFF"/>
 <wire x1="-109.22" y1="-30.48" x2="-91.44" y2="-30.48" width="0.1524" layer="91"/>
 <label x="-106.68" y="-30.48" size="1.778" layer="95"/>
 </segment>
@@ -24124,7 +24098,7 @@ routing.</text>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="SW" gate="G$1" pin="R2"/>
+<pinref part="M0/SW" gate="G$1" pin="R2"/>
 <wire x1="-152.4" y1="-25.4" x2="-180.34" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-180.34" y1="-25.4" x2="-180.34" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="M0R1" gate="G$1" pin="2"/>
@@ -24132,7 +24106,7 @@ routing.</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="SW" gate="G$1" pin="R1,C1"/>
+<pinref part="M0/SW" gate="G$1" pin="R1,C1"/>
 <pinref part="M0R2" gate="G$1" pin="2"/>
 <wire x1="-109.22" y1="-25.4" x2="-104.14" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="MOC1" gate="G$1" pin="1"/>
@@ -24147,14 +24121,14 @@ routing.</text>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="SW" gate="G$1" pin="VOUT,C1"/>
+<pinref part="M0/SW" gate="G$1" pin="VOUT,C1"/>
 <pinref part="MOC1" gate="G$1" pin="2"/>
 <wire x1="-152.4" y1="-38.1" x2="-152.4" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC_SW" class="0">
 <segment>
-<pinref part="SW" gate="G$1" pin="VOUT,C1_PIN2"/>
+<pinref part="M0/SW" gate="G$1" pin="VOUT,C1_PIN2"/>
 <wire x1="-152.4" y1="-30.48" x2="-175.26" y2="-30.48" width="0.1524" layer="91"/>
 <label x="-175.26" y="-30.48" size="1.778" layer="95"/>
 </segment>
