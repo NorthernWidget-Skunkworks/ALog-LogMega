@@ -21402,12 +21402,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="R_REF_A5" library="resistor" deviceset="R-US_" device="0207/10"/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="C3" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="100n"/>
+<part name="C3" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="0.1uF"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="100n"/>
+<part name="C6" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="0.1uF"/>
 <part name="IC3" library="SmartPrj" deviceset="ATMEGA2560" device="AU" technology="2560-16" value="ATMEGA2560-16AU"/>
-<part name="C5" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="100n"/>
-<part name="C4" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="100n"/>
+<part name="C5" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="0.1uF"/>
+<part name="C4" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="0.1uF"/>
 <part name="C1" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="22pF"/>
 <part name="C11" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="0.1uF"/>
 <part name="D3" library="diode" deviceset="DIODE-" device="MINIMELF" value="CD1206-S01575"/>

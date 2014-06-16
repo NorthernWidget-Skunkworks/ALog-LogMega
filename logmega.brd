@@ -2235,16 +2235,16 @@ design rules under a new name.</description>
 <attribute name="NAME" x="69.2785" y="72.1995" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="69.215" y="72.9869" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C3" library="SmartPrj" package="C0603-ROUND" value="100n" x="27.6225" y="44.45" smashed="yes"/>
-<element name="C6" library="SmartPrj" package="C0603-ROUND" value="100n" x="27.6225" y="38.735" smashed="yes"/>
+<element name="C3" library="SmartPrj" package="C0603-ROUND" value="0.1uF" x="27.6225" y="44.45" smashed="yes"/>
+<element name="C6" library="SmartPrj" package="C0603-ROUND" value="0.1uF" x="27.6225" y="38.735" smashed="yes"/>
 <element name="IC3" library="SmartPrj" package="TQFP100" value="ATMEGA2560-16AU" x="66.675" y="51.1175"/>
-<element name="C5" library="SmartPrj" package="C0603-ROUND" value="100n" x="27.6225" y="40.64" smashed="yes"/>
-<element name="C4" library="SmartPrj" package="C0603-ROUND" value="100n" x="27.6225" y="42.545" smashed="yes"/>
+<element name="C5" library="SmartPrj" package="C0603-ROUND" value="0.1uF" x="27.6225" y="40.64" smashed="yes"/>
+<element name="C4" library="SmartPrj" package="C0603-ROUND" value="0.1uF" x="27.6225" y="42.545" smashed="yes"/>
 <element name="C1" library="SmartPrj" package="C0603-ROUND" value="22pF" x="149.225" y="17.4625" smashed="yes" rot="R90">
 <attribute name="VALUE" x="151.257" y="16.256" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="C11" library="SmartPrj" package="C0603-ROUND" value="0.1uF" x="27.6225" y="36.83" smashed="yes" rot="R180">
-<attribute name="VALUE" x="24.638" y="34.8615" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="29.5148" y="42.8879" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D3" library="diode" package="MINIMELF" value="CD1206-S01575" x="94.9325" y="54.61" rot="R270"/>
 <element name="U$8" library="awickert" package="AT49" value="XTAL_ABLSG" x="63.8175" y="39.6875" rot="R270"/>
